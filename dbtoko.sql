@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `tbuser`
 --
-
+CREATE DATABASE dbtoko;
+USE dbtoko;
 CREATE TABLE `tbuser` (
   `id` int(11) NOT NULL,
   `nama` varchar(35) DEFAULT NULL,
